@@ -37,7 +37,7 @@ export const Skills = () => {
   const renderBubbles = (skills, className) => {
     const centerBubble = skills[0];
     const orbitBubbles = skills.slice(1);
-    const radius = 180; // Adjust radius for the circular arrangement based on increased width
+    const radius = 130; // Adjust radius for the circular arrangement based on increased width
     const angleStep = (2 * Math.PI) / orbitBubbles.length;
 
     return (
